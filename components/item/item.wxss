@@ -1,0 +1,32 @@
+/* components/item/item.wxss */
+.container {
+  width: 100%;
+}
+.item {
+  width: 100%;
+  height: 120rpx;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 30rpx;
+  box-sizing: border-box;
+  padding: 0 10rpx;
+}
+.sub-title {
+  padding-left: 20rpx;
+  font-size: 33rpx;
+}
+.item + view {
+  border-top: 1px solid lightgrey;
+}
+.item image {
+  width: 160rpx;
+  max-height: 110rpx;
+}
+.name {
+  padding-left: 90rpx;
+}
+.ch {
+  margin-right: 18rpx;
+}

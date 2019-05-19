@@ -1,0 +1,72 @@
+/* components/args/args.wxss */
+.container {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  z-index: 99;
+}
+
+/* 基本信息 */
+.basicInfo {
+  width: 100%;
+  padding: 20rpx;
+  font-size: 30rpx;
+  color: #101010;
+  margin: 10rpx 0;
+}
+.pe {
+  margin-top: 10rpx;
+}
+.price {
+  color: #E51C23;
+}
+
+/* 参数 */
+.args {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  width: 49%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px dashed #101010;
+  border-left: 1px dashed #101010;
+  font-size: 27rpx;
+  box-sizing: border-box;
+  padding: 11rpx 0;
+}
+.item:nth-child(3),
+.item:nth-child(4) {
+  border-bottom: 1px dashed #101010;
+}
+.item image {
+  width: 130rpx;
+  height: 130rpx;
+}
+
+/* 数量信息 */
+.amountInfo {
+  width: 100%;
+  margin: 15rpx 0;
+  padding: 10rpx 20rpx;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  font-size: 26rpx;
+}
+
+/* 按钮 */
+.btn {
+  width: 100%;
+  display: flex;
+  padding: 15rpx 0;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: cenetr;
+  border: 1px dashed #101010;
+}

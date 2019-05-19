@@ -1,0 +1,12 @@
+<!--components/share/share.wxml-->
+<view class='container'>
+  <view class='user_info'>
+    <image class='logo' src='../../images/logo/user.png'></image>
+    <text>{{username}}</text>
+  </view>
+  <view class='show' bindtap='shareDetail'>
+    <image src='{{imgPath}}' class='img'></image>
+    <text class='model'>{{model}}</text>
+  </view>
+
+</view>

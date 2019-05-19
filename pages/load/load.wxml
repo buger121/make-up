@@ -1,0 +1,15 @@
+<!--pages/load/load.wxml-->
+<view class='container'>
+  <view class='content'>
+    <view class='head'>
+      <image class='logo' src='../../images/logo/logo.jpg'></image>
+      <text class='title'>MAKE-UP</text>
+    </view>
+
+    <view class='jump' bindtap='jump'>
+      <text>继续</text>
+      <image src='../../images/logo/right.png'></image>
+    </view>
+  </view>
+
+</view>

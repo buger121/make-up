@@ -1,0 +1,34 @@
+<!--components/args/args.wxml-->
+<view class='container' hidden='{{hiddenArgs}}'>
+
+  <view class='basicInfo'>
+    <text>选择颜色、分类</text>
+    <view class='pe'>
+      <text>￥</text>
+      <text class='price'>{{price}}</text>
+    </view>
+  </view>
+
+  <view class='args' >
+    <view wx:for="{{args}}" wx:key="{{index}}" class='item' bindtap='chosen' data-index='{{index}}'
+    style="{{index == selectIndex ? 'background:#bbb' : 'background:#fff'}}">
+      <image src='{{item.imgPath}}'></image>
+      <text>{{item.title}}</text>
+    </view>
+  </view>
+
+  <view class='amountInfo'>
+    <view class='stock'>
+      <text>库存：</text>
+      <text>{{stock}}</text>
+    </view>
+    <view>
+      <text>1</text>
+    </view>
+  </view>
+
+  <view class='btn' bindtap='sure'>
+    <text>确定</text>
+  </view>
+
+</view>

@@ -1,0 +1,4 @@
+<!--components/serachTag/searchTag.wxml-->
+<view class='wrap'>
+  <text>{{title}}</text>
+</view>

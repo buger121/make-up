@@ -1,0 +1,5 @@
+<!--components/recommend/recommend.wxml-->
+<view class='container'>
+  <text>{{title}}</text>
+  <image src='{{imgPath}}' mode='aspectFit'></image>
+</view>

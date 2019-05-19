@@ -1,0 +1,20 @@
+/* components/recommend/recommend.wxss */
+.container {
+  width: 190rpx;
+  height: 230rpx;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding-top: 30rpx;
+  align-items: center;
+  text-align: center;
+}
+.container text {
+  width: 100%;
+  font-size: 25rpx;
+}
+.container image {
+  width: 110rpx;
+  height: 140rpx;
+}

@@ -1,0 +1,25 @@
+<!--pages/makeUp/makeUp.wxml-->
+<!-- photo -->
+<view class='container'>
+  <view class='photo'>
+    <image src='{{path}}' mode='aspectFit'></image>
+  </view>
+</view>
+<!-- 选择分类 -->
+<scroll-view class='options' scroll-y='true'>
+<view >
+    <option title="口红"   bind:test="testMakeUp"></option>
+    <option title="眉笔"></option>
+    <option title="腮红"></option>
+    <option title="眼影"></option>
+    <option title="推荐搭配妆容" bind:test="testMatch"></option>
+</view>
+</scroll-view>
+<!-- 选择口红 -->
+<view hidden='{{hideLipStick}}' >
+  <lipStick bind:back="back"></lipStick>
+</view>
+<!-- 选择妆容 -->
+<view hidden='{{hideMatch}}'>
+  <match bind:back="back"></match>
+</view>

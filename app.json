@@ -1,0 +1,77 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/home/home",
+    "pages/shop/shop",
+    "pages/load/load",
+    "pages/photo/photo"
+  ],
+  "subpackages": [
+    {
+      "root": "packageA",
+      "pages": [
+        "pages/brands/brands",
+        "pages/category/category",
+        "pages/search/search",
+        "pages/share/share",
+        "pages/swiper/swiper"
+      ]
+    },
+    {
+      "root": "packageB",
+      "name": "pack2",
+      "pages": [
+        "pages/makeUp/makeUp"
+      ]
+    },
+    {
+      "root": "packageShop",
+      "pages": [
+        "pages/detail/detail"
+      ]
+    },
+    {
+      "root": "packageMy",
+      "pages": [
+        "pages/order/order",
+        "pages/bag/bag"
+      ]
+    }
+  ],
+  
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Make-Up",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/logo/House.png",
+        "selectedIconPath": "images/logo/House (1).png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "iconPath": "images/logo/cart.png",
+        "selectedIconPath": "images/logo/cart(1).png",
+        "text": "商城"
+      },
+      {
+        "pagePath": "pages/photo/photo",
+        "iconPath": "images/logo/camera.png",
+        "selectedIconPath": "images/logo/camera1.png",
+        "text": "照片"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "images/logo/user.png",
+        "selectedIconPath": "images/logo/user1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,9 @@
+<!--pages/swiper/swiper.wxml-->
+<view class='container'>
+  <image src='../../images/swiper/1.png' mode='widthFix'></image>
+  <image src='../../images/swiper/2.png' mode='widthFix'></image>
+  <image src='../../images/swiper/3.png' mode='widthFix'></image>
+  <image src='../../images/swiper/4.png' mode='widthFix'></image>
+  <image src='../../images/swiper/5.png' mode='widthFix'></image>
+  <image src='../../images/swiper/6.png' mode='widthFix'></image>
+</view>

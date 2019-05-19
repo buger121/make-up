@@ -1,0 +1,6 @@
+<!--components/decorate/decorate.wxml-->
+<view class='wrap'>
+  <view class='block' style='{{borderStyle}}'></view>
+  <image src='{{imgPath}}'></image>
+  <view class='block' style='{{borderStyle}}'></view>
+</view>

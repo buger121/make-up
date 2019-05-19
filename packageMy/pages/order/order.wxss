@@ -1,0 +1,21 @@
+/* packageMy/pages/order/order.wxss */
+.status {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  background: #fff;
+  margin: 25rpx 0;
+}
+.status text {
+  width: 20%;
+  box-sizing: border-box;
+  padding: 15rpx 10rpx;
+  font-size: 28rpx;
+  border: 1px dashed #101010;
+  border-right: none;
+  text-align: center;
+  color: #101010;
+}
+.status text:last-child {
+  border-right: 1px dashed #101010;
+}

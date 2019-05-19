@@ -1,0 +1,100 @@
+/* components/match/match.wxss */
+.wraper{
+  width: 100%;
+  height: 480rpx;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  background-color: rgba(253, 232, 239, 55);
+}
+.up {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.up text {
+  font-size: 30rpx;
+  margin-right: 30rpx;
+  font-weight: 20rpx;
+}
+.up slider{
+  width: 55%;
+}
+.up image {
+  width: 35rpx;
+  height: 35rpx;
+  margin: 0 20rpx;
+}
+.down {
+  border-top: 1px solid #AAAAAA;
+  width: 80%;
+  margin: 10rpx auto;
+  margin-bottom: 0;
+  text-align: center;
+  color: #CEA5A5;
+}
+/* 选择妆容 */
+.container{
+  background-color: rgba(253, 232, 239, 55);
+  margin-top: 20rpx;
+  z-index: 99;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 320rpx;
+}
+.items {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.match {
+  width: 200rpx;
+  font-size: 30rpx;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
+}
+.img {
+  height: 180rpx;
+  width: 180rpx;
+  border-radius: 50%;
+}
+.desc {
+  font-size: 30rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.btns {
+  background-color: rgba(253, 232, 239, 55);
+  z-index: 99;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+}
+.btn {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+}
+.btn1 {
+  background-color: #F08C8C;
+}
+.btn2 {
+  background-color: #EA5D5D;
+}
+.btn-img{
+  margin-right:15rpx;
+  width: 50rpx;
+  height: 50rpx;
+}

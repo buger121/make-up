@@ -1,0 +1,27 @@
+<!--pages/home/home.wxml-->
+<view class="container">
+
+  <!-- 用户信息 -->
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <view wx:else >
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </view>
+  </view>
+
+  <!-- 我的 -->
+  <view class='my'>
+    <text>待支付</text>
+    <text>待发货</text>
+    <text>已发货</text>
+    <text>待评价</text>
+  </view>
+  <!-- 选项 -->
+  <optionBar title="我的订单" desc="全部订单" bind:optionDetail="myOrder"></optionBar>
+  <optionBar title="我的喜欢" desc="查看全部"></optionBar>
+  <optionBar title="我的积分" desc="520积分"></optionBar>
+  <optionBar title="我的购物袋" desc="" imgPath='/images/logo/bag.png' bind:optionDetail="myBag"></optionBar>
+  <optionBar title="我的收获地址" desc="" imgPath='/images/logo/location.png'></optionBar>
+
+</view>

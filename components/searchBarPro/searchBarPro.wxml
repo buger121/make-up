@@ -1,0 +1,6 @@
+<!--components/searchBarPro/searchBarPro.wxml-->
+<view class='container'>
+  <image src='../../images/logo/scan.png' class='scan'></image>
+  <image src='../../images/logo/search.png' class='search'></image>
+  <input type='text' confirm-type='search' placeholder='{{title}}'  bindtap='search'></input>
+</view>

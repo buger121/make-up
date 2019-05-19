@@ -1,0 +1,43 @@
+/* components/cart/cart.wxss */
+.wrap {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10rpx;
+  background: #fff;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  font-size: 30rpx;
+  color: #101010;
+  margin-top: 20rpx;
+}
+.check image{
+  width: 50rpx;
+  height: 50rpx;  
+}
+.show image{
+  width: 160rpx;
+  height: 160rpx;
+  margin: 0 10rpx;
+}
+.args {
+  padding: 10rpx 0;
+}
+.down {
+  display: flex;
+  justify-content: space-between;
+}
+.purchase {
+  margin-right: 10rpx;
+}
+.amounts image {
+  width: 30rpx;
+  height: 30rpx;
+}
+.amount {
+  margin: 10rpx;
+}
+.garbage {
+  width: 40rpx;
+  height: 40rpx;
+}

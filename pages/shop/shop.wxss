@@ -1,0 +1,41 @@
+/* pages/shop/shop.wxss */
+/* 轮播图 */
+.swiper {
+  width: 100%;
+  margin-top: 38rpx;
+}
+.slide-image {
+  width: 100%;
+}
+/* 热销 */
+.container {
+  margin-top: 20rpx;
+}
+.items {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.recommend {
+  width: 200rpx;
+  background: lightblue;
+}
+.more {
+  width: 400rpx;
+  height: 230rpx;
+  padding: 0 50rpx;
+  background: rgba(211, 211, 211, 0.562);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.more text {
+  font-size: 25rpx;
+}
+/* 商品 */
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.commodity {
+  display: inline-block;
+}

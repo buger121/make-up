@@ -1,0 +1,5 @@
+<!--components/option/option.wxml-->
+<view class='wraper' bindtap='test'>
+  <image src='../../images/logo/Cloudy.png'></image>
+  <text>{{title}}</text>
+</view>

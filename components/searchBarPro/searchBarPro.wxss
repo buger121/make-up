@@ -1,0 +1,36 @@
+/* components/searchBarPro/searchBarPro.wxss */
+.container {
+  flex-direction: row;
+  background: #fff;
+  border-top: 1px solid lightgray;
+  padding: 10rpx 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+}
+.scan {
+  width: 50rpx;
+  height: 50rpx;
+  margin: 0 30rpx;
+}
+.search {
+  width: 25rpx;
+  height: 25rpx;
+  margin-left: 20rpx;
+  margin-right: 15rpx;
+}
+.container input {
+  width: 72%;
+  height: 55rpx;
+  border-bottom-right-radius: 30rpx;
+  border-top-right-radius: 30rpx;
+  border-top-left-radius: 30rpx;
+  border-bottom-left-radius: 30rpx;
+  padding-left: 18rpx;
+  background-color: lightgrey;
+  font-size: 25rpx;
+}

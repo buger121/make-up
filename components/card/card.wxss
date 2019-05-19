@@ -1,0 +1,35 @@
+/* components/card/card.wxss */
+.container {
+  width: 330rpx;
+  height: 570rpx;
+  border: 1px dashed rgba(79, 77, 77, 86);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  margin: 20rpx 20rpx;
+  font-size: 30rpx;
+  position: relative;
+}
+.container image {
+  width: 310rpx;
+  height: 360rpx;
+  margin-top: 20rpx;
+}
+.desc {
+  font-size: 27rpx;
+  line-height: 1.4em;
+  letter-spacing: 0.1em;
+  padding: 10rpx;
+  text-indent: 20rpx;
+}
+.price {
+  /* margin-top: 20rpx; */
+  text-align: center;
+  position: absolute;
+  left: 100rpx;
+  bottom: 0;
+}
+.amount {
+  color: rgb(238, 78, 78);
+}

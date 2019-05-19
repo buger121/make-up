@@ -1,0 +1,46 @@
+<!--pages/shop/shop.wxml-->
+<!-- 搜索框 -->
+<searchBarPro title='{{searchTitle}}'></searchBarPro>
+<!-- 轮播图 -->
+<view class='swiper'>
+  <swiper
+      indicator-dots="{{indicatorDots}}"
+      autoplay="{{autoplay}}"
+      interval="{{interval}}"
+      duration="{{duration}}"
+      style="height:430rpx"
+    >
+      <view class='swiper'>
+        <swiper-item>
+          <image src="../../images/shop/swiper1.jpg" class="slide-image" />
+        </swiper-item>
+        <swiper-item>
+          <image src="../../images/shop/swiper2.jpg" class="slide-image" />
+        </swiper-item>
+        <swiper-item>
+          <image src="../../images/shop/swiper3.jpg" class="slide-image" />
+        </swiper-item>
+      </view>
+    </swiper>
+</view>
+<!-- 热销 -->
+<scroll-view scroll-x='true' class='container'>
+<view class='items'>
+
+  <view class='recommend' wx:for='{{items}}' wx:key='{{index}}' >
+    <recommend title="{{item.title}}" imgPath='{{item.imgPath}}'></recommend>
+  </view>
+  <view class='more'>
+    <text>查看更多</text>
+  </view>
+</view>
+  
+</scroll-view>
+
+<!-- 商品 -->
+<view class='wrap'>
+  <view class='commodity' wx:for='{{products}}' wx:key='{{index}}'>
+    <card imgPath='{{item.imgPath}}' desc='{{item.desc}}' price='{{item.price}}' bindtap='detail' 
+    data-id='{{index}}'></card>
+  </view>
+</view>

@@ -1,0 +1,3 @@
+<!--pages/category/category.wxml-->
+<searchBar></searchBar>
+<item  titles='{{titles}}' items='{{items}}'></item>

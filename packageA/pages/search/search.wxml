@@ -1,0 +1,37 @@
+<!--pages/search/search.wxml-->
+<!-- header -->
+<view class='header'>
+  <image src='/images/logo/search.png' class='search'></image>
+  <input type='text' confirm-type='search' placeholder='搜索你喜欢的口红'  bindtap='search'></input>
+  <text bindtap='cancel'>取消</text>
+</view>
+<!-- 搜索历史 -->
+<view class='content'>
+  <view class='title'>
+    <text>最近搜索</text>
+    <image src='/images/logo/garbage.png'></image>
+  </view>
+
+  <view class='tags'>
+    <searchTag title="雅诗兰黛"></searchTag>
+  </view>
+
+</view>
+
+<!-- 搜索发现 -->
+<view class='content find'>
+  <view class='title'>
+    <text>搜索发现</text>
+  </view>
+
+  <view class='tags'>
+  <searchTag title="资生堂新系列口红"></searchTag>
+  <searchTag title="显白的口红"></searchTag>
+  <searchTag title="MAC"></searchTag>
+  <searchTag title="娇兰"></searchTag>
+  <searchTag title="口红"></searchTag>
+  <searchTag title="阿玛尼"></searchTag>
+  <searchTag title="雅诗兰黛"></searchTag>
+  </view>
+
+</view>

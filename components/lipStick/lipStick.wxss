@@ -1,0 +1,70 @@
+/* components/lipStick/lipStick.wxss */
+.wraper{
+  width: 100%;
+  height: 480rpx;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  background-color: rgba(253, 232, 239, 55);
+}
+.up {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.up text {
+  font-size: 30rpx;
+  margin-right: 30rpx;
+  font-weight: 20rpx;
+}
+.up slider{
+  width: 55%;
+}
+.up image {
+  width: 35rpx;
+  height: 35rpx;
+  margin: 0 20rpx;
+}
+.down {
+  border-top: 1px solid #AAAAAA;
+  width: 80%;
+  margin: 10rpx auto;
+  margin-bottom: 0;
+  text-align: center;
+  color: #CEA5A5;
+}
+
+/* 选择口红 */
+.container{
+  background-color: #fff;
+  z-index: 199;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 320rpx;
+}
+.items {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.lipstick {
+  width: 200rpx;
+  font-size: 30rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 20rpx;
+}
+.img {
+  height: 200rpx;
+  width: 200rpx;
+}
+.desc {
+  font-size: 30rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}

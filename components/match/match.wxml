@@ -1,0 +1,67 @@
+<!--components/match/match.wxml-->
+<view class='wraper'>
+
+  <view class='up'>
+    <image src='/images/logo/left.png' bindtap='back'></image>
+    <text>颜色厚度</text>
+    <slider 
+      backgroundColor='#ff819e' 
+      block-color='#fff' 
+      block-size='16'
+      selected-color='#ff819e'
+      show-value='true'
+      ></slider>
+  </view>
+  <view class='down'>
+    <text>推荐搭配妆容</text>
+  </view>
+
+</view>
+
+<!-- 选择妆容 -->
+<scroll-view scroll-x='true' class='container'>
+  <view class='items'>
+
+    <view class='match'>
+      <image src='/packageB/images/match/match1.jpg' class='img'></image>
+      <view class='desc'>
+        <text>树莓养乐多妆</text>
+      </view>
+    </view>
+
+    <view class='match'>
+      <image src='/packageB/images/match/match2.jpg' class='img'></image>
+      <view class='desc'>
+        <text>蜜桃元气妆</text>
+      </view>
+    </view>
+
+    <view class='match'>
+      <image src='/packageB/images/match/match3.jpg' class='img'></image>
+      <view class='desc'>
+        <text>泰妍妆</text>
+      </view>
+    </view>
+
+    <view class='match'>
+      <image src='/packageB/images/match/match4.jpg' class='img'></image>
+      <view class='desc'>
+        <text>橘子气泡妆</text>
+      </view>
+    </view>
+
+
+  </view>
+</scroll-view>
+
+<view class='btns'>
+  <view class='btn btn1'>
+    <image src='../../images/logo/cart 4.png' class='btn-img'></image>
+    <text>加入购物车</text>
+  </view>
+  <view class='btn btn2'>
+    <image src='../../images/logo/pay.png' class='btn-img'></image>
+    <text>立即购买</text>
+  </view>
+</view>
+

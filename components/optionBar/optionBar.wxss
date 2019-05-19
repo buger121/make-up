@@ -1,0 +1,27 @@
+/* components/optionBar/optionBar.wxss */
+.optionWrap {
+  background-color: #fff;
+  padding: 28rpx 30rpx;
+  border: 2rpx dashed rgba(30,30,30,0.6); 
+  font-size: 29rpx;
+  box-sizing: border-box;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25rpx;
+}
+image {
+  width:50rpx;
+  height: 50rpx;
+  margin: 0 20rpx;
+}
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.desc {
+  color: rgba(79,77,77,0.7);
+}
+

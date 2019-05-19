@@ -1,0 +1,12 @@
+/* pages/photo/photo.wxss */
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+image {
+  width: 400rpx;
+  height: 400rpx;
+  margin: 20rpx auto;
+  margin-top: 200rpx;
+}

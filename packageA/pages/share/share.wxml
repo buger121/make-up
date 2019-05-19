@@ -1,0 +1,65 @@
+<!--pages/share/share.wxml-->
+<view class='body'>
+  <view class='head'>
+    <view class='userInfo'>
+      <image src='/images/logo/user1.png' class='avatar'></image>
+      <text>lexiii_照骗</text>
+    </view>
+    <view class='follow'>
+      <text>+关注</text>
+    </view>
+  </view>
+
+  <view class='article'>
+
+    <swiper
+      indicator-dots="{{indicatorDots}}"
+      autoplay="{{autoplay}}"
+      interval="{{interval}}"
+      duration="{{duration}}"
+      style="height:700rpx"
+    >
+      <view class='swiper'>
+        <swiper-item>
+          <image src="/images/share/1.jpg" class="slide-image"/>
+        </swiper-item>
+        <swiper-item>
+          <image src="/images/share/2.jpg" class="slide-image" />
+        </swiper-item>
+        <swiper-item>
+          <image src="/images/share/3.jpg" class="slide-image" />
+        </swiper-item>
+        <swiper-item>
+          <image src="/images/share/4.jpg" class="slide-image" />
+        </swiper-item>
+      </view>
+    </swiper>
+    <text space='emsp' class='content'>
+    是我第一次把口红用空了并回购的口红! ! !实在是难以掩饰我的激动!!!一定要再次安利!我的口红很多要用空一只口红真的特别不容易!! !\n  但是兰蔻274是黑马!我居然都用空了，可见我平时真的都是揣兜里在用!成膜很快，质地不会很黏，上嘴很滋润，超爱了!本来要再找相熟的代购重新买一只，但是跟我说没货，瞄了眼旗舰店居然!居然上架了! !\n  奶茶色最火的应该就是兰蔻的274了，太温柔了，绝对是日常必备! !日杂风满满!\n  我的兰蔻196就是旗舰店买的，包装走心了! !礼盒和赠品都很喜欢啊啊啊!!!\n  我先下手了!实在是被大家的购买力吓到了!我怕来不及就没货了! !
+    </text>
+
+  </view>
+
+</view>
+
+<view class='btns'>
+
+  <view class='btn test' bindtap='test'>
+  <image src='/images/logo/link.png'></image>
+  <text>试色</text>
+  </view>
+
+  <view class='btn like'>
+  <image src='/images/logo/like.png'></image>
+  <text>喜欢</text>
+  </view>
+
+  <view class='btn cart'>
+  <text>加入购物车</text>
+  </view>
+
+  <view class='btn buy'>
+  <text>立即购买</text>
+  </view>
+
+</view>

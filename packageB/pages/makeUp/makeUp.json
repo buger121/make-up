@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "option": "/components/option/option",
+    "lipStick": "/components/lipStick/lipStick",
+    "match": "/components/match/match"
+  },
+  "navigationBarTitleText": "试色"
+}

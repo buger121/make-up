@@ -1,0 +1,39 @@
+/* components/share/share.wxss */
+.container {
+  background-color: #fff;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10rpx 25rpx;
+  margin-bottom: 30rpx;
+}
+.user_info {
+  margin-bottom: 15rpx;
+  padding-left: 30rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo {
+  width: 35rpx;
+  height: 35rpx;
+  margin-right: 10rpx;
+  display: inline-block;
+}
+.user_info text {
+  font-size: 27rpx;
+  
+}
+.show {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+.img {
+  width: 320rpx;
+  height: 320rpx;
+  border-radius: 100rpx;
+}
+.model {
+  font-size: 30rpx;
+}

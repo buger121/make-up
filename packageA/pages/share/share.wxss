@@ -1,0 +1,97 @@
+/* pages/share/share.wxss */
+.body {
+  padding-bottom: 100rpx;
+}
+/* 头部 */
+.head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 12rpx 27rpx;
+  border-top: 1px solid lightgrey;
+  background-color: #fff;
+}
+.userInfo {
+  display: flex;
+  flex-direction: row;
+  font-size: 25rpx;
+  justify-content: space-around;
+  align-items: center;
+}
+.userInfo text {
+  margin-left: 15rpx;
+}
+.avatar {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+}
+
+.follow text {
+  border: 1px solid #A3D0FD;
+  background-color: #E6F1FC;
+  font-size: 25rpx;
+  box-sizing: border-box;
+  padding: 10rpx 30rpx;
+  color: #1989FA
+} 
+
+/* 轮播图 */
+.article {
+  background: rgba(253, 232, 239, 55);
+  /* margin-bottom: 150rpx;    */
+}
+.article::after {
+  content: "";
+  height: 80rpx;
+}
+.slide-image{
+    display: block;
+    width:94%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: lightblue;
+}
+/* 文章内容 */
+.content {
+  font-size: 30rpx;
+  letter-spacing: 0.3em;
+  line-height: 1.3em;
+}
+/* 按钮 */
+.btns {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+}
+.btn {
+  box-sizing: border-box;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 28rpx;
+  padding: 10rpx 0;
+}
+.btn image {
+  width: 50rpx;
+  height: 50rpx;
+}
+.test {
+  border-right: 1px solid #AAAAAA;
+}
+.cart {
+  background-color: #F08C8C;
+  color: #fff;
+}
+.buy {
+  background-color: #E10909;
+  color: #fff;
+}

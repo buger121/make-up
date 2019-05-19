@@ -1,0 +1,17 @@
+/* components/option/option.wxss */
+.wraper {
+  background-color: #fff;
+  padding: 30rpx 40rpx;
+  /* border-top: 2rpx solid #e8e8ed;
+  border-bottom: 2rpx solid #e8e8ed;  */
+  font-size: 32rpx;
+  box-sizing: border-box;
+  color: #333;
+  display: flex;
+  justify-content: flex-start;
+}
+image {
+  width:50rpx;
+  height: 50rpx;
+  margin-right: 50rpx;
+}

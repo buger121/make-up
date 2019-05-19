@@ -1,0 +1,5 @@
+<!--components/searchBar/searchBar.wxml-->
+<view class='container'>
+  <image class='search' src='../../images/logo/search.png'></image>
+  <input type='text' placeholder='MAC'></input>
+</view>

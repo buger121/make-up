@@ -1,0 +1,18 @@
+<!--components/order/order.wxml-->
+<view class='wraper'>
+  <view class='up'>
+    <image src='{{imgPath}}' mode='aspectFill'></image>
+    <view class='right'>
+      <text class='desc'>{{desc}}</text>
+      <text class='args'>{{args}}</text>
+      <text class='tradeStatus'>{{tradeStatus}}</text>
+    </view>
+  </view>
+  <view class='down'>
+    <text class='more'>...</text>
+    <text class='delivery'>查看物流</text>
+    <text class='comment'>评价</text>
+    <text class='amount'>共{{amount}}件商品</text>
+    <text class='price'>合计：￥{{price}}</text>
+  </view>
+</view>

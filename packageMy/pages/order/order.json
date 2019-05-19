@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "order": "/packageMy/components/order/order"
+  }
+}

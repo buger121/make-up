@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "share": "/components/share/share",
+    "searchBarPro": "/components/searchBarPro/searchBarPro",
+    "decorate": "/components/decorate/decorate"
+  }
+}

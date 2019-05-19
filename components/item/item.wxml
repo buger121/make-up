@@ -1,0 +1,24 @@
+<!--components/item/item.wxml-->
+<view class='container'>
+  
+
+  <view class='content'>
+
+    <view class='title' wx:for='{{titles}}' wx:key='{{index}}' wx:for-item="titles" wx:for-index="idx">
+      <text class='sub-title'> {{titles}} </text>
+    
+      <view class='item' wx:for='{{items[idx]}}' wx:key='{{index}}'>
+        <image src='{{item.path}}' mode='aspectFit'></image>
+          <view class='name'>
+          <text class='ch'>{{item.nameCh}}</text>
+          <text class='en'>{{item.nameEn}}</text>
+          </view>
+      </view>
+
+    </view>
+
+
+  </view>
+
+
+</view>

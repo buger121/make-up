@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "item": "/components/item/item",
+    "searchBar" : "/components/searchBar/searchBar"
+  },
+  "navigationBarTitleText": "分类"
+}

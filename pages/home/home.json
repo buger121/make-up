@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "optionBar": "/components/optionBar/optionBar"
+  },
+  "navigationBarTitleText": "我"
+}

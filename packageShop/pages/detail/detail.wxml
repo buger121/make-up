@@ -1,0 +1,71 @@
+<!--packageShop/pages/detail/detail.wxml-->
+<view class='body'>
+
+  <!-- 轮播图 -->
+  <view class='swiper'>
+    <swiper
+    indicator-dots="{{dots}}"
+    autoplay="true"
+    interval="5000"
+    duration="1000"
+    style='height:600rpx;'
+  >
+    <block wx:for="{{products[id].imgPath}}" wx:key="{{inex}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image"/>
+      </swiper-item>
+    </block>
+  </swiper>
+  </view>
+  <!-- 商品基本信息 -->
+  <view class='basicInfo'>
+    <text class='desc'>{{products[id].desc}}</text>
+    <view >
+      <text>￥： </text>
+      <text class='price'>{{products[id].price}}</text>
+    </view>
+  </view>
+  <!-- 物流信息 -->
+  <view class='deliveryInfo'>
+    <text>发货地：{{products[id].source}}</text>
+    <text>快递：{{products[id].delivery}}</text>
+    <text>折扣：{{products[id].acount}}</text>
+  </view>
+  <!-- 更多选项 -->
+  <optionBar title="产品试色" desc="查看" imgPath="" borderStyle="border:none;"></optionBar>
+  <optionBar 
+    title="选择" 
+    desc="{{arg}}" 
+    imgPath="/packageShop/images/detail/d1.jpg" 
+    borderStyle="border:none;" 
+    imageStyle="width:100rpx;height:100rpx;"
+    bind:optionDetail="optionDetail"
+  ></optionBar>
+  <optionBar title="产品参数" desc="查看" imgPath="" borderStyle="border:none;"></optionBar>
+
+</view>
+
+<!-- 按钮组件 -->
+<view class='btns'>
+  <view class='btn bag'>
+    <image src='/images/logo/bag.png'></image>
+    <text>查看购物袋</text>
+  </view>
+  <view class='btn'>
+    <text>加入购物袋</text>
+  </view>
+  <view class='btn'>
+    <text>立即购买</text>
+  </view>
+</view>
+
+<!-- 参数组件 -->
+<args 
+  hiddenArgs="{{hiddenArgs}}"
+  args="{{products[id].args}}" 
+  price="{{products[id].price}}" 
+  stock="{{products[id].stock}}"
+  bind:sure="sure"
+  bind:chosen="chosen"
+  
+></args>

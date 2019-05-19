@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "optionBar": "/components/optionBar/optionBar",
+    "args": "/components/args/args"
+  }
+}

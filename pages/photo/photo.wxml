@@ -1,0 +1,5 @@
+<!--pages/photo/photo.wxml-->
+<view class='container'>
+  <image src='../../images/logo/add.png' bindtap='addPhoto'></image>
+  <text>添加照片</text>
+</view>

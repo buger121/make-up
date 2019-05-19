@@ -1,0 +1,19 @@
+<!--packageMy/pages/order/order.wxml-->
+<view class='status'>
+  <text>全部</text>
+  <text>待支付</text>
+  <text>待发货</text>
+  <text>已发货</text>
+  <text>待评价</text>
+</view>
+
+<view class='orders' wx:for='{{orders}}' wx:key='{{index}}'>
+  <order 
+    imgPath='{{item.imgPath}}'
+    desc='{{item.desc}}'
+    args='{{item.args}}'
+    tradeStatus='{{item.tradeStatus}}'
+    amount='{{item.amount}}'
+    price='{{item.price}}'
+  ></order>
+</view>

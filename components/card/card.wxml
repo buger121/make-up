@@ -1,0 +1,9 @@
+<!--components/card/card.wxml-->
+<view class='container' >
+  <image src='{{imgPath}}' mode='scaleToFill'></image>
+    <text class='desc'>{{desc}}</text>
+    <view class='price'>
+      <text>￥：</text>
+      <text class='amount'>{{price}}</text>
+    </view>
+</view>

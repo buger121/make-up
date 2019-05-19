@@ -1,0 +1,41 @@
+/* pages/load/load.wxss */
+.container {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://cdn.img.wenhairu.com/images/2019/05/10/T3FH.png");
+  background-size: cover;
+  position: relative;
+}
+.content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  line-height: 50px;
+  text-align: center;
+  background:rgba(255,255,255,0.3);
+}
+.head {
+  margin-top: 30rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 32rpx;
+}
+.logo {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+}
+.jump {
+  position: absolute;
+  right: 40rpx;
+  bottom: 40rpx;
+  font-size: 37rpx;
+}
+.jump image {
+  width: 37rpx;
+  height: 37rpx;
+  margin-left: 13rpx;
+}

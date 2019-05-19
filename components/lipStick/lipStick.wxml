@@ -1,0 +1,68 @@
+<!--components/lipStick/lipStick.wxml-->
+<view class='wraper'>
+
+  <view class='up'>
+    <image src='/images/logo/left.png' bindtap='back'></image>
+    <text>颜色厚度</text>
+    <slider 
+      backgroundColor='#ff819e' 
+      block-color='#fff' 
+      block-size='16'
+      selected-color='#ff819e'
+      show-value='true'
+      ></slider>
+  </view>
+  <view class='down'>
+    <text>热门色号</text>
+  </view>
+
+  </view>
+
+  <!-- 选择口红 -->
+  <scroll-view scroll-x='true' class='container'>
+    <view class='items'>
+      <view class='lipstick'>
+        <image src='/packageB/images/chanel/chanel1.jpg' class='img'></image>
+        <view class='desc'>
+          <text>Chanel</text>
+          <text>rough coco flash</text>
+          <text>#106</text>
+        </view>
+      </view>
+
+
+      <view class='lipstick'>
+        <image src='/packageB/images/chanel/chanel2.jpg' class='img'></image>
+        <view class='desc'>
+          <text>Chanel</text>
+          <text>柔雾唇釉  956</text>
+        </view>
+      </view>
+
+      <view class='lipstick'>
+        <image src='/packageB/images/chanel/chanel3.jpg' class='img'></image>
+        <view class='desc'>
+          <text>Chanel</text>
+          <text>rough coco flash</text>
+          <text>#102</text>
+        </view>
+      </view>
+
+      <view class='lipstick'>
+        <image src='/packageB/images/chanel/chanel4.jpg' class='img'></image>
+        <view class='desc'>
+          <text>Chanel</text>
+          <text>rough coco flash</text>
+          <text>#106</text>
+        </view>
+      </view>
+
+    </view>
+  </scroll-view>
+    
+  
+
+
+
+
+

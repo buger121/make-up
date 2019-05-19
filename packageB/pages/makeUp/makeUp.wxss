@@ -1,0 +1,22 @@
+/* pages/makeUp/makeUp.wxss */
+
+page {
+  height: 100%;
+}
+.photo {
+  padding-top: 80rpx;
+  display: flex;
+}
+.photo image{
+  margin: 0 auto;
+  min-height: 720rpx;
+  min-width: 760rpx;
+
+}
+.options{
+  width: 100%;
+  height: 450rpx;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}

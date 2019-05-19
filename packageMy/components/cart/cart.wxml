@@ -1,0 +1,23 @@
+<!--components/cart/cart.wxml-->
+<view class='wrap'>
+  <view class='check'>
+    <image src='{{checkImg}}' mode='aspectFit' bindtap='check'></image>
+  </view>
+  <view class='show'>
+    <image src='{{imgPath}}' mode='aspectFit'></image>
+  </view>
+  <view class='info'>
+    <view class='desc'>{{desc}}</view>
+    <view class='args'>{{args}}</view>
+    <view class='down'>
+      <text class='price'>￥ {{price}}</text>
+      <view class='amounts'>
+        <text class='purchase'>购买数量</text>
+        <image src='/packageMy/images/logo/deduct.png' bindtap='deduct'></image>
+        <text class='amount'>{{amount}}</text>
+        <image src='/packageMy/images/logo/add.png' bindtap='add'></image>
+      </view>
+      <image class='garbage' src='/images/logo/garbage.png'></image>
+    </view>
+  </view>
+</view>

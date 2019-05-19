@@ -1,0 +1,9 @@
+<!--components/optionBar/optionBar.wxml-->
+<view class='optionWrap' style='{{borderStyle}}' bindtap='optionDetail'>
+  <text class='title'>{{title}}</text>
+  <view class='right'>
+    <image src='{{imgPath}}' style='{{imageStyle}}'></image>
+    <text class='desc'>{{desc}}</text>
+    <image src='/images/logo/right.png'></image>
+  </view>
+</view>

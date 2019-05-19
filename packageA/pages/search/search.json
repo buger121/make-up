@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "searchTag": "/components/searchTag/searchTag"
+  },
+  "navigationBarTitleText": "搜索"
+}

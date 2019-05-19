@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "searchBarPro": "/components/searchBarPro/searchBarPro",
+    "recommend": "/components/recommend/recommend",
+    "card": "/components/card/card"
+  },
+  "navigationBarTitleText": "商城"
+}

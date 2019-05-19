@@ -1,0 +1,139 @@
+<!--index.wxml-->
+<!-- header -->
+<view class='header'>
+  <searchBarPro bind:search="search" title="{{searchTitle}}"></searchBarPro>
+</view>
+<!-- swiper -->
+<swiper
+  indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}"
+  interval="{{interval}}"
+  duration="{{duration}}"
+  class='swiper'
+  bindtap='swiperDetail'
+  style='height:330rpx;'
+>
+  <block>
+    <swiper-item>
+      <image src="../../images/index/wider11.png" class="slide-image" mode='widthFix'/>
+    </swiper-item>
+    <swiper-item>
+      <image src="../../images/index/wider44.png" class="slide-image" mode='widthFix'/>
+    </swiper-item>
+    <swiper-item>
+      <image src="../../images/index/wider33.png" class="slide-image" mode='widthFix'/>
+    </swiper-item>
+    <swiper-item>
+      <image src="../../images/index/wider44.png" class="slide-image" mode='widthFix'/>
+    </swiper-item>
+  </block>
+</swiper>
+
+<!-- brands -->
+<decorate imgPath="../../images/logo/Orange.png" borderStyle="border-bottom: 1px dashed rgba(255,64,199,100)"></decorate>
+<view class='contents'>
+  <view class='content' bindtap='category'>
+    <image src='../../images/brands/one.jpg' mode='aspectFit'></image>
+    <text>橘朵</text>
+  </view>
+  <view class='content'>
+    <image src='../../images/brands/two.jpg' mode='aspectFit'></image>
+    <text>悦诗风吟</text>
+  </view>
+  <view class='content'>
+    <image src='../../images/brands/three.jpg' mode='aspectFit'></image>
+    <text>伊蒂之屋</text>
+  </view>
+  <view class='content'>
+    <image src='../../images/brands/more.jpg' mode='aspectFit'></image>
+    <text>更多</text>
+  </view>
+  <view class='content'>
+    <image src='../../images/brands/four.jpg' mode='aspectFit'></image>
+    <text>兰蔻</text>
+  </view>
+  <view class='content'>
+    <image src='../../images/brands/five.jpg' mode='aspectFit'></image>
+    <text>雅诗兰黛</text>
+  </view>
+  <view class='content'>
+    <image src='../../images/brands/six.jpg' mode='aspectFit'></image>
+    <text>迪奥</text>
+  </view>
+  <view class='content'>
+    <image src='../../images/brands/more.jpg' mode='aspectFit'></image>
+    <text>更多</text>
+  </view>
+</view>
+
+<!-- 商品分类 -->
+<decorate imgPath="../../images/logo/sandwitch.png" borderStyle="border-bottom: 1px dashed rgba(37,155,36,100)"></decorate>
+<view class='contents category'>
+  <view class='content first'>
+    <image src='../../images/category/cosmetic.png' mode='aspectFit'></image>
+    <text></text>
+  </view>
+  <view class='content'  bindtap='brands'>
+    <image src='../../images/category/lipstick.png' mode='aspectFit'></image>
+    <text>LIP</text>
+    <text>口红</text>
+  </view>
+  <view class='content'>
+    <image src='../../images/category/eyeshadow.png' mode='aspectFit'></image>
+    <text>EYESADOW</text>
+    <text>眼影</text>
+  </view>
+  <view class='content'>
+    <image src='../../images/category/blusher.png' mode='aspectFit'></image>
+    <text>BLUSHER</text>
+    <text>腮红</text>
+  </view>
+  <view class='content'>
+    <image src='../../images/category/eyebrow.png' mode='aspectFit'></image>
+    <text>EYEBROWN</text>
+    <text>眉笔</text>
+  </view>
+  <view class='content'>
+    <image src='../../images/category/foundation.png' mode='aspectFit'></image>
+    <text>FOUNDATION</text>
+    <text>粉底</text>
+  </view>
+  <view class='content'>
+    <image src='../../images/category/highlight.png' mode='aspectFit'></image>
+    <text>HIGHLIGHT</text>
+    <text>高光</text>
+  </view>
+  <view class='content'>
+    <image src='../../images/category/bronzer.png' mode='aspectFit'></image>
+    <text>BRONZER</text>
+    <text>修容</text>
+  </view>
+</view>
+
+<!-- 分享区 -->
+<decorate imgPath="../../images/logo/dot.png" borderStyle="border-bottom: 1px dashed rgba(187,187,187,100)"></decorate>
+<view class='shares'>
+  <view class='share'>
+  <share username='lexili_照骗' imgPath='../../images/share/1.jpg' model='兰蔻唇釉274' bind:shareDetail='shareDetail'>></share>
+  </view>
+
+  <view class='share'>
+  <share username='lexili_照骗' imgPath='../../images/share/2.jpg' model='稚优泉口红137'></share>
+  </view>
+
+  <view class='share'>
+  <share username='lexili_照骗' imgPath='../../images/share/3.jpg' model='Chanel 106'></share>
+  </view>
+
+  <view class='share'>
+  <share username='October_黄梓淇' imgPath='../../images/share/4.jpg' model='YSL黑管416'></share>
+  </view>
+
+</view>
+
+
+
+
+
+
+

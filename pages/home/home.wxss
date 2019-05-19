@@ -1,0 +1,52 @@
+/* pages/home/home.wxss */
+/* 用户信息 */
+.userinfo {
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 30rpx;
+}
+
+.userinfo view {
+  padding-top: 25rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 250rpx;
+}
+.userinfo image {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  margin-bottom: 20rpx;
+}
+.userinfo text {
+  color: #333;
+  font-size: 40rpx;
+}
+/* 我的 */
+.my {
+  margin-top: 10rpx;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 60rpx;
+}
+.my text {
+  border: 1px dashed rgba(16,16,16,0.7);
+  border-right: none;
+  box-sizing: border-box;
+  padding: 15rpx 20rpx;
+  color: rgba(16,16,16,100);
+  background-color: #fff;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30rpx;
+  height: 85rpx;
+}
+.my text:last-child {
+  border-right: 1px dashed rgba(16,16,16,0.7);
+}
